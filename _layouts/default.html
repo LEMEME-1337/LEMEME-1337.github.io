@@ -28,13 +28,15 @@
           </div>
 
           <nav>
-            <select>
-              <option><a href="{{ site.baseurl }}/Hello-Scrubs">Hello Scrubs</a></option>
-              <option><a href="{{ site.baseurl }}/Russki">Russki</a></option>
-              <option><a href="{{ site.baseurl }}/IT">IT</a></option>
-              <option><a href="{{ site.baseurl }}/Happy-New-Year-(and-other-stuff)">Happy New Year</a></option>
-            </select>
-            <input type="submit" value="Go!">
+            <form action="drop.php" method="get">
+              <select>
+                <option><a href="{{ site.baseurl }}/Hello-Scrubs">Hello Scrubs</a></option>
+                <option><a href="{{ site.baseurl }}/Russki">Russki</a></option>
+                <option><a href="{{ site.baseurl }}/IT">IT</a></option>
+                <option><a href="{{ site.baseurl }}/Happy-New-Year-(and-other-stuff)">Happy New Year</a></option>
+              </select>
+              <input type="submit" value="Go!">
+            </form>  
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>

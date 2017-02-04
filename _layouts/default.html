@@ -28,7 +28,7 @@
           </div>
 
           <nav>
-            <form action="drop.php" method="get">
+            <form action="" method="get">
               <select>
                 <option value="hello_scrubs">Hello Scrubs</option>
                 <option value="russki">Russki</option>
@@ -36,7 +36,13 @@
                 <option value="happy_new_year">Happy New Year</option>
               </select>
               <input type="submit" value="Go!">
-            </form>  
+            </form>
+            <?php
+                $hello_scrubs = $_GET['hello_scrubs']
+                $russki = $_GET['russki']
+                $it = $_GET['it']
+                $happy_new_year = $_GET['happy_new_year']
+            ?>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>

@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <?php header('Content-Type: text/html; charset=utf-8'); ?>
+  </head>
   <body>
     <?php 
     $hello_scrubs = $_GET['hello_scrubs'];

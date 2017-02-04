@@ -4,6 +4,7 @@ title: Self-education
 ---
 
 <p>I successfully taught myself some other important html things like:</p>
+
 <ul>
   <li>Lists</li>
   <li>Forms</li>

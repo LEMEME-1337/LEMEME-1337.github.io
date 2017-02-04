@@ -9,3 +9,6 @@
 
       if ($hello_scrubs == TRUE);
       header("location:https://lememe-1337.github.io/Hello-Scrubs/"); ?>
+    </body>
+  </html>
+     

@@ -2,8 +2,6 @@
 <html>
   <head>
     <?php header('Content-Type: text/html; charset=utf-8'); ?>
-  </head>
-  <body>
     <?php 
     $hello_scrubs = $_GET['hello_scrubs'];
     $russki = $_GET['russki'];
@@ -12,6 +10,6 @@
 
     if ($hello_scrubs == TRUE);
     header("location:https://lememe-1337.github.io/Hello-Scrubs/"); ?>
-  </body>
+  </head>
 </html>
      

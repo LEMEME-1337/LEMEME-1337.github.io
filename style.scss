@@ -304,7 +304,12 @@ li {
 }
 
 .drop-links {
+  position: absolute;
   display: none;
+}
+
+.drop-links a {
+	display: block;
 }
 
 .drop-button:hover + .drop-links {

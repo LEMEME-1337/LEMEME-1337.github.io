@@ -303,6 +303,14 @@ footer {
 	list-style-type: none;
 }
 
+#drop li {
+	display: inline-block;
+}
+
+#drop li a {
+	display: block;
+}
+
 #drop ul li:hover ul {
 	display: block;
 }

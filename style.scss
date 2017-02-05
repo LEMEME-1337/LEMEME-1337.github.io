@@ -1,19 +1,6 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
-@import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
-
-
 .drop-links {
 	position: absolute;
 	display: none;
@@ -26,6 +13,18 @@
 .drop-button:hover .drop-links {
 	display: block;
 }
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
 
 * {
 	cursor: url(https://cdn.discordapp.com/attachments/86516635598340096/274241104470212608/thonkign.png);

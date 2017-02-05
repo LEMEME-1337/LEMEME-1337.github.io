@@ -1,18 +1,6 @@
 ---
 ---
 
-.drop-links {
-	position: absolute;
-}
-
-.drop-links a {
-	display: block;
-}
-
-.drop-button:hover .drop-links {
-	display: block;
-}
-
 //
 // IMPORTS
 //
@@ -311,3 +299,14 @@ footer {
 @import "highlights";
 @import "svg-icons";
 
+li {
+  list-style-type: none;
+}
+
+.drop-links {
+  display: none;
+}
+
+.drop-button:hover + .drop-links {
+  display: block;
+}

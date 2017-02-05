@@ -303,21 +303,13 @@ footer {
 	list-style-type: none;
 }
 
-#drop li {
-	display: inline-block;
-}
-
-#drop li a {
-	display: block;
+#drop ul ul {
+	display: none;
+	position: absolute;
 }
 
 #drop ul li:hover ul {
 	display: block;
-}
-
-#drop ul ul {
-	display: none;
-	position: absolute;
 }
 
 #drop ul ul li {

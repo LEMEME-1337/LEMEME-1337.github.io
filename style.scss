@@ -299,15 +299,15 @@ footer {
 @import "highlights";
 @import "svg-icons";
 
-.droplinks {
+.drop-links {
 	display: none;
 	position: absolute;
 }
 
-.droplinks a {
+.drop-links a {
 	display: block;
 }
 
-.dropbutton:hover .droplinks {
+.drop-button:hover .drop-links {
 	display: block;
 }

@@ -13,6 +13,20 @@
 /* BASE RULES */
 /**************/
 
+
+.drop-links {
+	position: absolute;
+	display: none;
+}
+
+.drop-links a {
+	display: block;
+}
+
+.drop-button:hover .drop-links {
+	display: block;
+}
+
 * {
 	cursor: url(https://cdn.discordapp.com/attachments/86516635598340096/274241104470212608/thonkign.png);
 }
@@ -299,15 +313,3 @@ footer {
 @import "highlights";
 @import "svg-icons";
 
-.drop-links {
-	position: absolute;
-	display: none;
-}
-
-.drop-links a {
-	display: block;
-}
-
-.drop-button:hover .drop-links {
-	display: block;
-}

@@ -303,15 +303,11 @@ footer {
 	list-style-type: none;
 }
 
-#drop ul ul {
+#drop a ul {
 	display: none;
 	position: absolute;
 }
 
-#drop ul li:hover ul {
-	display: block;
-}
-
-#drop ul ul li {
+#drop a:hover ul {
 	display: block;
 }

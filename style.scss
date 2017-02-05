@@ -304,6 +304,10 @@ footer {
 	display: none;
 }
 
+.drop-links a {
+	diplay: block;
+}
+
 .drop-button:hover .drop-links {
 	display: block;
 }

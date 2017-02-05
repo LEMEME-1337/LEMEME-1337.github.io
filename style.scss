@@ -315,6 +315,6 @@ li {
 	display: block;
 }
 
-.drop-button:hover + .drop-links {
+.drop-button:hover + .drop-links,.drop-links:hover {
   display: block;
 }

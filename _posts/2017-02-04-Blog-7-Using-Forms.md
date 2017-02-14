@@ -5,7 +5,7 @@ title: Using Forms
 <head>
 <script>
 function Message() {
-  var message = document.getElementById("meme");
+  var message = document.getElementById("meme").value;
   document.getElementById("print").innerHTML = message
 }
 </script>

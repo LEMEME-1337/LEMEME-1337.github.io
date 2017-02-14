@@ -5,8 +5,8 @@ title: Using Forms
 <head>
 <script>
 function Message() {
-  var message = document.getElementById("meme")
-  message.innerHTML = "Anonymous says:" + "<br>" 
+  var message = document.getElementById("meme").innerHTML
+  return message
 }
 </script>
 </head>

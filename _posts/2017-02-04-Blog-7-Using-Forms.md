@@ -20,7 +20,7 @@ function Message() {
 <textarea rows="4" cols="50" id="meme">
 Type text here and press enter to post it
 </textarea>
-<input type="submit" value="Submit" name="button">
+<input type="submit" value="Submit" name="button" onclick="return getData()" >
 </form>
 
 <p id="print"></p>

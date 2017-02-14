@@ -6,7 +6,7 @@ title: Using Forms
 <script>
 function Message() {
   var message = document.getElementById("meme").value;
-  document.getElementById("print").innerHTML = message
+  document.getElementById("print").innerHTML = "Anonymous said: " + message
 }
 </script>
 </head>
@@ -23,7 +23,6 @@ Type text here and press enter to post it
 <input type="submit" value="Submit" name="button">
 </form>
 
-<p>Anonymous said: </p>
 <p id="print"></p>
 
 

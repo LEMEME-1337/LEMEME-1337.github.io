@@ -11,12 +11,8 @@ title: Using Forms
 <textarea rows="4" cols="50" >
 Type text here and press enter to post it
 </textarea>
-<input type="submit" value="Submit" name="button">
+<input type="submit" value="Submit" name="button" onclick="var message = document.getElementById("meme"); message.innerHTML ="answer";>
 </form>
 
-<script>
-var message = document.getElementById("meme");
-message.innerHTML = "answer";
-</script>
 
 

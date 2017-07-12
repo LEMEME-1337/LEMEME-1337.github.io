@@ -23,6 +23,8 @@ html {
 
 body {
 	background: url("https://images.alphacoders.com/736/736461.png");
+	background-reapeat: no-repeat;
+	background-attachment: fixed;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }

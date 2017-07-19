@@ -300,22 +300,3 @@ footer {
 @import "highlights";
 @import "svg-icons";
 
-li {
-  list-style-type: none;
-}
-
-.drop-links {
-  position: absolute;
-  display: none;
-  background-color: rgba(215, 215, 255, 0.75);
-  min-width: 140px;
-}
-
-.drop-links ul li{
-	padding: 10px;
-	display: block;
-}
-
-.drop-button:hover + .drop-links,.drop-links:hover,.drop-links ul li:hover {
-  display: block;
-}
